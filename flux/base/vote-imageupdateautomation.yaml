@@ -19,6 +19,6 @@ spec:
   push:
     branch: main
   update:
-    path: ./deploy/vote/staging
+    path: ./kustomize/vote/staging
     strategy: Setters
 
