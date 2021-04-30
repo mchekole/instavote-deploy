@@ -9,8 +9,8 @@ replicas:
 - name: vote
   count: 0
 images:
-- name: dopsdemo/vote 
-  newTag: main-e8b357e3-1619193658 # {"$imagepolicy": "instavote:vote:tag"}
+- name: dopsdemo/vote
+  newTag: main-f1d6230f-1619794967 # {"$imagepolicy": "instavote:vote:tag"}
 namespace: instavote
 commonLabels:
   project: instavote
