@@ -4,10 +4,9 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
-- service.yaml
 replicas:
 - name: vote
-  count: 4
+  count: 0
 images:
 - name: dopsdemo/vote 
   newTag: main-e8b357e3-1619193658 # {"$imagepolicy": "flux-system:vote:tag"}
