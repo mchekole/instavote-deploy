@@ -2,8 +2,6 @@
 apiVersion: image.toolkit.fluxcd.io/v1alpha1
 kind: ImageUpdateAutomation
 metadata:
-  annotations:
-    reconcile.fluxcd.io/requestedAt: "2021-04-24T04:55:31.400215379Z"
   name: instavote-all
   namespace: instavote
 spec:
