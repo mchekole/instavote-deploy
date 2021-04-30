@@ -10,7 +10,7 @@ spec:
   checkout:
     branch: main
     gitRepositoryRef:
-      name: instavote
+      name: instavote-deploy
   commit:
     authorEmail: flux@example.com
     authorName: flux
