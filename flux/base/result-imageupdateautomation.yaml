@@ -21,6 +21,6 @@ spec:
     kind: GitRepository
     name: instavote-deploy
   update:
-    path: ./kustomize/charts/result
+    path: ./helm/charts/result
     strategy: Setters
 
