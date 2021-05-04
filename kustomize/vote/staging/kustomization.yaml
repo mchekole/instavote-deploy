@@ -18,7 +18,3 @@ commonLabels:
   env: staging
 commonAnnotations:
   supported-by: "sre@example.com"
-configMapGenerator:
-- name: vote-options
-  envs:
-  - options.env
