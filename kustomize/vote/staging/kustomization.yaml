@@ -4,10 +4,10 @@ resources:
 - ../base
 patchesStrategicMerge:
 - deployment.yaml
-- canary.yaml
+- service.yaml
 replicas:
 - name: vote
-  count: 0
+  count: 4
 images:
 - name: schoolofdevops/vote
   newName: dopsdemo/vote
