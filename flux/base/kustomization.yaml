@@ -3,8 +3,3 @@ kind: Kustomization
 resources:
 - github-instavote-provider.yaml
 - instavote-gitrepository.yaml
-- vote-imagepolicy.yaml
-- vote-imagerepository.yaml
-- vote-imageupdateautomation.yaml
-- vote-kustomization.yaml
-- vote-staging-alert.yaml
