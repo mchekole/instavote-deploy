@@ -6,7 +6,7 @@ metadata:
   namespace: instavote
 spec:
   gitImplementation: go-git
-  interval: 1h
+  interval: 30s
   ref:
     branch: main
   timeout: 20s
