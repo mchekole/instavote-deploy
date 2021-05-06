@@ -12,5 +12,5 @@ spec:
   timeout: 20s
   secretRef:
     name: github-token
-  url: https://github.com/fluxdemo/instavote-deploy.git
+  url: https://github.com/devopsfoo/instavote-deploy.git
 
